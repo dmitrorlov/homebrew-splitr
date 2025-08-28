@@ -1,5 +1,5 @@
 cask "splitr" do
-  version "0.1.15"
+  version "0.1.16"
   sha256 "abc123def456..." # Will be real SHA256 hash
 
   url "https://github.com/dmitryorlov/splitr/releases/download/v#{version}/Splitr-v#{version}-macos-arm64.zip"
