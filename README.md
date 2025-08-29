@@ -27,6 +27,12 @@ To update Splitr to the latest version:
 brew upgrade splitr
 ```
 
+If you got warning that latest version is already installed, run this before:
+
+```bash
+brew update splitr
+```
+
 ## Uninstalling
 
 To completely remove Splitr and all its files:
