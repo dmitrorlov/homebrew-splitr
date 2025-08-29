@@ -1,8 +1,8 @@
 cask "splitr" do
-  version "0.1.23"
-  sha256 "e20952794f1169ca0c401adafd63ec9eb5404bd8bf6257c48693913d92924142"
+  version "0.1.24"
+  sha256 "2f5689c16eb91ce62675713f16b12089157439bc9bb2d2e7528e4bb4d2f8701d"
 
-  url "https://github.com/dmitrorlov/splitr/releases/download/v0.1.23/Splitr-v0.1.23-macos-arm64.zip"
+  url "https://github.com/dmitrorlov/splitr/releases/download/v0.1.24/Splitr-v0.1.24-macos-arm64.zip"
   name "Splitr"
   desc "MacOS application for advanced L2TP VPN split tunneling."
   homepage "https://github.com/dmitrorlov/splitr"
