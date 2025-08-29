@@ -1,6 +1,6 @@
 # Homebrew Tap for Splitr
 
-This is the official Homebrew tap for [Splitr](https://github.com/dmitryorlov/splitr), MacOS application for advanced L2TP VPN split tunneling.
+This is the official Homebrew tap for [Splitr](https://github.com/dmitrorlov/splitr), MacOS application for advanced L2TP VPN split tunneling.
 
 ## Installation
 
@@ -8,7 +8,7 @@ To install Splitr using Homebrew:
 
 ```bash
 # Add the tap
-brew tap dmitryorlov/splitr
+brew tap dmitrorlov/splitr
 
 # Install Splitr
 brew install --cask splitr
@@ -16,7 +16,7 @@ brew install --cask splitr
 
 ### One-liner installation
 ```bash
-brew install --cask dmitryorlov/splitr/splitr
+brew install --cask dmitrorlov/splitr/splitr
 ```
 
 ## Updating
@@ -39,7 +39,7 @@ brew uninstall --cask splitr
 brew uninstall --zap --cask splitr
 
 # Remove the tap (optional)
-brew untap dmitryorlov/splitr
+brew untap dmitrorlov/splitr
 ```
 
 ## Features
@@ -56,8 +56,8 @@ brew untap dmitryorlov/splitr
 
 ## Manual Installation Alternative
 
-If you prefer not to use Homebrew, you can still download releases manually from the [GitHub releases page](https://github.com/dmitryorlov/splitr/releases).
+If you prefer not to use Homebrew, you can still download releases manually from the [GitHub releases page](https://github.com/dmitrorlov/splitr/releases).
 
 ## Issues
 
-If you encounter any issues with the Homebrew installation, please report them in the main [Splitr repository](https://github.com/dmitryorlov/splitr/issues).
+If you encounter any issues with the Homebrew installation, please report them in the main [Splitr repository](https://github.com/dmitrorlov/splitr/issues).
