@@ -8,7 +8,7 @@ To install Splitr using Homebrew:
 
 ```bash
 # Add the tap
-brew tap dmitrorlov/splitr
+brew tap dmitrorlov/tap
 
 # Install Splitr
 brew install --cask splitr
@@ -16,7 +16,7 @@ brew install --cask splitr
 
 ### One-liner installation
 ```bash
-brew install --cask dmitrorlov/splitr/splitr
+brew install --cask dmitrorlov/tap/splitr
 ```
 
 ## Updating
@@ -45,7 +45,7 @@ brew uninstall --cask splitr
 brew uninstall --zap --cask splitr
 
 # Remove the tap (optional)
-brew untap dmitrorlov/splitr
+brew untap dmitrorlov/tap
 ```
 
 ## Features
@@ -67,3 +67,18 @@ If you prefer not to use Homebrew, you can still download releases manually from
 ## Issues
 
 If you encounter any issues with the Homebrew installation, please report them in the main [Splitr repository](https://github.com/dmitrorlov/splitr/issues).
+
+## Migration from old tap
+
+If you previously used `dmitrorlov/splitr/splitr`, you can migrate to the new tap:
+
+```bash
+# Remove old tap
+brew untap dmitrorlov/splitr
+
+# Add new tap
+brew tap dmitrorlov/tap
+
+# Reinstall (this will use the new tap)
+brew reinstall --cask splitr
+```
